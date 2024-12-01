@@ -85,3 +85,120 @@ nav{
         justify-content: center;
     }
 }
+
+/* Home Part */
+
+.home{
+    width: 100%;
+    height: 100vh;
+    min-height: 970px;
+    background-image: url(res/accueil-pic-lum-down.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 1px dotted #777;
+    padding-top: 1px;
+}
+
+.logo-kyoto{
+    border-radius: 50%;
+    width: 180px;
+    display: block;
+    margin: 179px auto 0;
+}
+
+.home h1{
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 0 0 10px #000;
+    color: #f1f1f1;
+    margin-top: 10px;
+    font-family: Merienda, sans-serif;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #000;
+    color: #f1f1f1;
+    margin-top: 10px;
+    font-family: Merienda, sans-serif;
+}
+
+.btn-home{
+    border-radius: 9999px;
+    background: crimson;
+    border: 1px solid #333;
+    color: #f1f1f1;
+    text-align: center;
+    font-size: 22px;
+    display: block;
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    text-decoration: none;
+    margin: 30px auto 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-home:hover{
+    background: rgb(177, 0, 36);
+    color: white;
+}
+
+@media screen and (max-width:850px){
+    .home{
+        height: 650px;
+        min-height: auto;
+    }
+    .logo-kyoto{
+        margin: 120px auto 0;
+    }
+    .home h1{
+        font-size: 60px;
+    }
+
+    .subtitle{
+        font-size: 23px;
+    }
+
+    .btn-home{
+        width: 150px;
+        height:50px;
+        line-height: 50px;
+        font-size: 18px;
+        margin: 15px auto 0;
+    }
+}
+
+@media screen and (max-width:850px){
+    .home{
+        height: 550px;
+        min-height: auto;
+        background-position: right;
+    }
+    .logo-kyoto{
+        width: 150px;
+        margin: 110px auto 0;
+    }
+    .home h1{
+        font-size: 35px;
+    }
+
+    .subtitle{
+        font-size: 20px;
+    }
+
+    .btn-home{
+        width: 130px;
+        height:45px;
+        line-height: 45px;
+        font-size: 16px;
+    }
+
+    .logo-menu{
+        top: 15px;
+        width: 40px;
+    }
+}
